@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+# FWATCH
+<html lang="en">
+MOVIE AND SERIE WEBSITE
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4WATCH - Stream & Download Movies and Series</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="HEADCSS.CSS">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo" id="homeLogo">4WATCH</a>
+
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-section="home">Home</a></li>
+                    <li><a href="#" data-section="movies">Movies</a></li>
+                    <li><a href="#" data-section="series">TV Series</a></li>
+                    <li><a href="#" data-section="new">New & Popular</a></li>
+                    <li><a href="#" data-section="mylist">My List</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-user">
+                <div class="search">
+                    <input type="text" id="searchInput" placeholder="Search...">
+                    <i class="fas fa-search" id="searchIcon"></i>
+                </div>
+                <div class="user-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <div id="mainContent">
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-content">
+                <h1 class="hero-title">Avatar: The Way of Water</h1>
+                <p class="hero-description">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. When a familiar threat returns, Jake must work with Neytiri and the army of the Na'vi race to protect their home.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="heroWatchBtn"><i class="fas fa-play"></i><a href="https://www.youtube.com/watch?v=fncXrPuXXj0" style="color: l#0e89ee(57.1% 34.32 234.55);"> Watch Now</a></button>
+                    <button class="btn btn-secondary" id="heroDownloadBtn"><i class="fas fa-download"></i> Download</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories">
+            <h2 class="section-title">Categories</h2>
+            <div class="category-list">
+                <div class="category-item active" data-category="all">All</div>
+                <div class="category-item" data-category="action">Action</div>
+                <div class="category-item" data-category="adventure">Adventure</div>
+                <div class="category-item" data-category="comedy">Comedy</div>
+                <div class="category-item" data-category="drama">Drama</div>
+                <div class="category-item" data-category="horror">Horror</div>
+                <div class="category-item" data-category="sci-fi">Sci-Fi</div>
+                <div class="category-item" data-category="fantasy">Fantasy</div>
+                <div class="category-item" data-category="romance">Romance</div>
+                <div class="category-item" data-category="thriller">Thriller</div>
+                <div class="category-item" data-category="animation">Animation</div>
+            </div>
+        </section>
+
+        <!-- Trending Movies -->
+        <section class="movie-section" id="trendingMovies">
+            <h2 class="section-title">Trending Movies</h2>
+            <div class="movie-grid">
+                <!-- Movie Cards -->
+
+
+                <div class="movie-card" data-id="2" data-type="movie" data-title="Oppenheimer" data-year="2023" data-rating="8.9" data-genre="Drama, Biography" data-category="drama">
+                    <img src="IMG/OPN.jpg" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Oppenheimer</h3>
+                        <div class="movie-meta">
+                            <span>2023</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="2" data-type="movie" data-title="Oppenheimer" data-year="2023" data-rating="8.9" data-genre="Drama, Biography" data-category="drama">
+                    <img src="IMG/td.jpg" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Taxi Driver</h3>
+                        <div class="movie-meta">
+                            <span>1976</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="3" data-type="movie" data-title="The Batman" data-year="2022" data-rating="7.8" data-genre="Action, Crime" data-category="action">
+                    <img src="IMG/PI.jpg" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Pianist</h3>
+                        <div class="movie-meta">
+                            <span>2002</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="4" data-type="movie" data-title="Barbie" data-year="2023" data-rating="7.3" data-genre="Comedy, Fantasy" data-category="comedy fantasy">
+                    <img src="IMG/TG.jpg" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Good The Bad And The Ugly</h3>
+                        <div class="movie-meta">
+                            <span>1966</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="5" data-type="movie" data-title="Interstellar" data-year="2014" data-rating="8.7" data-genre="Sci-Fi, Adventure" data-category="sci-fi adventure">
+                    <a href="interstaler.HTML"><img src="IMG/INT.jpg" alt="Movie Poster"></a>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Interstellar</h3>
+                        <div class="movie-meta">
+                            <span>2014</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie-card" data-id="5" data-type="movie" data-title="Interstellar" data-year="2014" data-rating="8.7" data-genre="Sci-Fi, Adventure" data-category="sci-fi adventure">
+                    <a href=""><img src="IMG/OCN 8.jpg" alt="Movie Poster"></a>
+                    <div class="movie-info">
+                        <h3 class="movie-title">ocean 8</h3>
+                        <div class="movie-meta">
+                            <span>2018</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>6.3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- Popular Series -->
+        <section class="movie-section" id="popularSeries">
+            <h2 class="section-title">Popular TV Series</h2>
+            <div class="movie-grid">
+                <!-- Series Cards -->
+                <div class="movie-card" data-id="6" data-type="series" data-title="Stranger Things" data-year="2016-" data-rating="8.7" data-genre="Sci-Fi, Horror" data-seasons="4" data-category="sci-fi horror">
+                    <img src="/api/placeholder/300/450" alt="Series Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Stranger Things</h3>
+                        <div class="movie-meta">
+                            <span>2016-</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="7" data-type="series" data-title="The Last of Us" data-year="2023-" data-rating="8.8" data-genre="Action, Drama" data-seasons="1" data-category="action drama">
+                    <img src="/api/placeholder/300/450" alt="Series Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Last of Us</h3>
+                        <div class="movie-meta">
+                            <span>2023-</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="8" data-type="series" data-title="House of the Dragon" data-year="2022-" data-rating="8.5" data-genre="Action, Fantasy" data-seasons="1" data-category="action fantasy">
+                    <img src="/api/placeholder/300/450" alt="Series Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">House of the Dragon</h3>
+                        <div class="movie-meta">
+                            <span>2022-</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="9" data-type="series" data-title="Breaking Bad" data-year="2008-2013" data-rating="9.5" data-genre="Crime, Drama" data-seasons="5" data-category="crime drama">
+                    <img src="/api/placeholder/300/450" alt="Series Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Breaking Bad</h3>
+                        <div class="movie-meta">
+                            <span>2008-2013</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="10" data-type="series" data-title="Game of Thrones" data-year="2011-2019" data-rating="9.2" data-genre="Action, Fantasy" data-seasons="8" data-category="action fantasy">
+                    <img src="/api/placeholder/300/450" alt="Series Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Game of Thrones</h3>
+                        <div class="movie-meta">
+                            <span>2011-2019</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>9.2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Releases -->
+        <section class="movie-section" id="recentReleases">
+            <h2 class="section-title">Recent Releases</h2>
+            <div class="movie-grid">
+                <!-- Recent Movie Cards -->
+                <div class="movie-card" data-id="11" data-type="movie" data-title="Deadpool & Wolverine" data-year="2024" data-rating="8.6" data-genre="Action, Comedy" data-category="action comedy">
+                    <img src="/api/placeholder/300/450" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Deadpool & Wolverine</h3>
+                        <div class="movie-meta">
+                            <span>2024</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.6</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="12" data-type="movie" data-title="The Fall Guy" data-year="2024" data-rating="7.4" data-genre="Action, Comedy" data-category="action comedy">
+                    <img src="/api/placeholder/300/450" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Fall Guy</h3>
+                        <div class="movie-meta">
+                            <span>2024</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>7.4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="13" data-type="movie" data-title="Furiosa" data-year="2024" data-rating="7.9" data-genre="Action, Adventure" data-category="action adventure">
+                    <img src="/api/placeholder/300/450" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Furiosa</h3>
+                        <div class="movie-meta">
+                            <span>2024</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>7.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movie-card" data-id="14" data-type="movie" data-title="Inside Out 2" data-year="2024" data-rating="8.3" data-genre="Animation, Adventure" data-category="animation adventure">
+                    <img src="/api/placeholder/300/450" alt="Movie Poster">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Inside Out 2</h3>
+                        <div class="movie-meta">
+                            <span>2024</span>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <span>8.3</span>
+                            </div>
+                        </div>
