@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interstellar - Movie Details</title>
+   <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #121212;
+        color: #f0f0f0;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+        padding: 20px;
+    }
+    
+    h1, h2 {
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    
+    .poster {
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    
+    .poster img {
+        width: 300px;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    
+    .details {
+        overflow: hidden;
+    }
+    
+    .details p {
+        margin-bottom: 10px;
+    }
+    
+    .streaming,
+    .related-movies,
+    .comments {
+        margin-top: 30px;
+    }
+    
+    .related-movies h2,
+    .streaming h2,
+    .comments h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .related-movies a {
+        color: #4fc3f7;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    
+    .comments {
+        background-color: #2c2c2c;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .poster {
+            float: none;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+    
+        .poster img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .details {
+            text-align: center;
+        }
+    }
+    </style>
+    <style>  body { font-family: Arial, sans-serif; }
+        .container { width: 80%; margin: auto; }
+        .poster { float: left; margin-right: 20px; }
+        .details { overflow: hidden; }
+        .related-movies { margin-top: 20px; }
+        .watch-button {
+              display: inline-block;
+        padding: 12px 25px;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background: linear-gradient(135deg, #ff416c, #ff4b2b);
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(255, 75, 43, 0.4);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .watch-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(255, 75, 43, 0.6);
+    }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Interstellar</h1>
+        <div class="poster">
+            <img src="IMG/INT.jpg" alt="Interstellar Poster" width="300">
+        </div>
+        <div class="details">
+            <p><strong>Release Year:</strong> 2014</p>
+            <p><strong>Genre:</strong> Science Fiction, Adventure, Drama</p>
+            <p><strong>Director:</strong> Christopher Nolan</p>
+            <p><strong>Main Cast:</strong> Matthew McConaughey, Anne Hathaway, Jessica Chastain</p>
+            <p><strong>Duration:</strong> 169 minutes</p>
+            <p><strong>IMDb Rating:</strong> 8.6/10</p>
+            <p><strong>Synopsis:</strong> A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</p>
+       <div>
+        <div class="streaming">
+        <h2>Watch Now</h2>
+        <a href="https://iwaatch.com/view/Interstellar" class="watch-button">▶ Watch Interstellar</a>
+        </div>
+     <div class="streaming">
+         <h2>Download</h2>
+         <a href="#down" class="watch-button">▶ Download Interstellar</a>
+     </div>
+      </div> 
+    
+    </div>
+</body>
+</html>
