@@ -102,7 +102,7 @@ nav ul li a:hover, nav ul li a.active {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url(IMG/av.jpg);
+    background-image: url(av.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
